@@ -1,0 +1,119 @@
+footer {
+    .linhasELogo {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        div {
+            width: 46%;
+        }
+        .linhaHorizontal {
+            border: 1px solid #204022;
+            width: 100%;
+        }
+        .logoFooter {
+            width: 100px;
+            height: 100px;
+        }
+    }
+
+    .footerMenus {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        margin: 25px auto 25px;
+        padding: 0 10px;
+
+        .menu1 {
+            width: 25%;
+            height: 150px;
+            display: flex;
+            flex-direction: column;
+
+            .title {
+                font-size: 28px;
+                color: #204022;
+                padding-bottom: 20px;
+            }
+            .ancoras {
+                div {
+                    margin: 15px;
+                    a {
+                        margin: 15px;
+                        color: #204022;
+                        text-decoration: none;
+                    }
+                }
+            }
+        }
+
+        .menu2 {
+            width: 50%;
+            height: 150px;
+
+            .title {
+                font-size: 24px;
+                color: #204022;
+                margin-bottom: 40px;
+                text-align: center;
+            }
+
+            .inputContato {
+                background-color: #aef78e;
+                display: flex;
+                justify-content: space-around;
+            }
+            .inputEmail {
+                float: left;
+                background-color: transparent;
+                width: 80%;
+                border: none;
+            }
+            .btnEnviar {
+                color: inherit;
+                text-decoration: none;
+            }
+            hr {
+                margin-top: 10px;
+                border-color: #204022;
+            }
+        }
+
+        .menu3 {
+            width: 25%;
+            height: 150px;
+            display: flex;
+            flex-direction: column;
+
+            .title {
+                font-size: 24px;
+                color: #204022;
+                margin-bottom: 25px;
+                text-align: center;
+            }
+
+            .iconsContainer {
+                display: flex;
+                flex-direction: column;
+                margin-left: 45%;
+                a {
+                    font-size: 20px;
+                    text-decoration: none;
+                    color: #204022;
+                    margin: 5px 0;
+                }
+
+                img {
+                    width: 20px;
+                    height: 20px;
+                    margin-right: 5px;
+                }
+            }
+        }
+    }
+
+    .footerLastText {
+        font-size: 14px;
+        color: #204022;
+        text-align: center;
+    }
+}

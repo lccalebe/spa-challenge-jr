@@ -1,0 +1,246 @@
+header {
+  top: 0;
+  left: 0;
+  width: 100%;
+  color: #aef78e;
+  background-color: #204022; }
+  header .headerContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 100%;
+    margin: 0 auto;
+    padding-left: 32px;
+    padding-right: 32px; }
+    header .headerContainer .logoImg {
+      width: 100px;
+      height: 100%; }
+    header .headerContainer nav {
+      display: grid;
+      grid-gap: 16px;
+      grid-template-columns: repeat(4, auto); }
+      header .headerContainer nav a {
+        color: inherit;
+        font-size: 20px;
+        text-decoration: none; }
+      header .headerContainer nav .icons {
+        width: 20px;
+        height: 20px; }
+
+.bannerSwiper .swiper {
+  height: 500px; }
+  .bannerSwiper .swiper .swiper-slide {
+    text-align: center; }
+  .bannerSwiper .swiper .swiperImg {
+    width: 100%; }
+
+.produtoESwiper {
+  position: relative; }
+  .produtoESwiper .description {
+    background-color: #caffb9;
+    height: 450px;
+    width: 85%;
+    margin-top: 60px;
+    display: flex;
+    align-items: center;
+    padding-left: 6%; }
+    .produtoESwiper .description .text {
+      width: 40%;
+      padding-left: 15px;
+      height: 300px; }
+      .produtoESwiper .description .text h1 {
+        padding: 10px 0;
+        font-size: 32px; }
+      .produtoESwiper .description .text .button {
+        border: solid #204022;
+        background-color: #204022;
+        align-self: center;
+        color: #caffb9;
+        text-align: center;
+        margin-top: 10px;
+        padding: 10px; }
+  .produtoESwiper .produtoSwiper {
+    position: absolute;
+    display: flex;
+    height: 60%;
+    width: 30%;
+    top: 25%;
+    left: 68%; }
+    .produtoESwiper .produtoSwiper .swiper {
+      height: 100%;
+      width: 100%; }
+      .produtoESwiper .produtoSwiper .swiper .swiper-slide {
+        width: 100%;
+        height: 100%;
+        text-align: center; }
+
+footer .linhasELogo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; }
+  footer .linhasELogo div {
+    width: 46%; }
+  footer .linhasELogo .linhaHorizontal {
+    border: 1px solid #204022;
+    width: 100%; }
+  footer .linhasELogo .logoFooter {
+    width: 100px;
+    height: 100px; }
+
+footer .footerMenus {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 25px auto 25px;
+  padding: 0 10px; }
+  footer .footerMenus .menu1 {
+    width: 25%;
+    height: 150px;
+    display: flex;
+    flex-direction: column; }
+    footer .footerMenus .menu1 .title {
+      font-size: 28px;
+      color: #204022;
+      padding-bottom: 20px; }
+    footer .footerMenus .menu1 .ancoras div {
+      margin: 15px; }
+      footer .footerMenus .menu1 .ancoras div a {
+        margin: 15px;
+        color: #204022;
+        text-decoration: none; }
+  footer .footerMenus .menu2 {
+    width: 50%;
+    height: 150px; }
+    footer .footerMenus .menu2 .title {
+      font-size: 24px;
+      color: #204022;
+      margin-bottom: 40px;
+      text-align: center; }
+    footer .footerMenus .menu2 .inputContato {
+      background-color: #aef78e;
+      display: flex;
+      justify-content: space-around; }
+    footer .footerMenus .menu2 .inputEmail {
+      float: left;
+      background-color: transparent;
+      width: 80%;
+      border: none; }
+    footer .footerMenus .menu2 .btnEnviar {
+      color: inherit;
+      text-decoration: none; }
+    footer .footerMenus .menu2 hr {
+      margin-top: 10px;
+      border-color: #204022; }
+  footer .footerMenus .menu3 {
+    width: 25%;
+    height: 150px;
+    display: flex;
+    flex-direction: column; }
+    footer .footerMenus .menu3 .title {
+      font-size: 24px;
+      color: #204022;
+      margin-bottom: 25px;
+      text-align: center; }
+    footer .footerMenus .menu3 .iconsContainer {
+      display: flex;
+      flex-direction: column;
+      margin-left: 45%; }
+      footer .footerMenus .menu3 .iconsContainer a {
+        font-size: 20px;
+        text-decoration: none;
+        color: #204022;
+        margin: 5px 0; }
+      footer .footerMenus .menu3 .iconsContainer img {
+        width: 20px;
+        height: 20px;
+        margin-right: 5px; }
+
+footer .footerLastText {
+  font-size: 14px;
+  color: #204022;
+  text-align: center; }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'PT Sans', sans-serif; }
+
+body {
+  margin: 0 auto;
+  background-color: #aef78e;
+  min-width: 900px; }
+
+.roundedMenu {
+  height: 350px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center; }
+  .roundedMenu .roundedImg {
+    border-radius: 100%; }
+
+.descriptionSection {
+  position: relative; }
+  .descriptionSection .description {
+    background-color: #caffb9;
+    height: 500px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    position: absolute;
+    z-index: -1; }
+    .descriptionSection .description .text {
+      width: 30%;
+      padding-bottom: 100px; }
+      .descriptionSection .description .text h1 {
+        padding: 20px 0;
+        font-size: 32px; }
+  .descriptionSection .descriptionCard {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding-top: 50px; }
+    .descriptionSection .descriptionCard .cards {
+      margin: 0 10px;
+      width: 27%;
+      text-align: center; }
+      .descriptionSection .descriptionCard .cards img {
+        width: 100%; }
+      .descriptionSection .descriptionCard .cards .pCards {
+        font-weight: bold; }
+      .descriptionSection .descriptionCard .cards p {
+        padding-bottom: 15px; }
+    .descriptionSection .descriptionCard .card1 {
+      padding-top: 120px;
+      height: 100%; }
+    .descriptionSection .descriptionCard .card1, .descriptionSection .descriptionCard .card2, .descriptionSection .descriptionCard .card3 {
+      background-color: #caffb9;
+      margin-bottom: 10px; }
+
+.instaSection {
+  height: 700px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center; }
+  .instaSection .card2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between; }
+    .instaSection .card2 .insta {
+      width: 300px;
+      height: 300px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding-bottom: 100px; }
+      .instaSection .card2 .insta a {
+        font-size: 32px;
+        text-decoration: none;
+        color: inherit;
+        border: 2px solid;
+        border-radius: 20px;
+        padding: 10px;
+        background-color: #caffb9; }

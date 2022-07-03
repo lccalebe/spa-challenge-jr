@@ -1,0 +1,39 @@
+header {
+    top: 0;
+    left: 0;
+    width: 100%;
+    color: #aef78e;
+    background-color: #204022;
+
+    .headerContainer{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        max-width: 100%;
+        margin: 0 auto;
+        padding-left: 32px;
+        padding-right: 32px;
+
+        .logoImg {
+            width: 100px;
+            height: 100%;
+        }
+
+        nav {
+            display: grid;
+            grid-gap: 16px;
+            grid-template-columns: repeat(4, auto);
+
+            a {
+                color: inherit;
+                font-size: 20px;
+                text-decoration: none;
+            }
+
+            .icons {
+                width: 20px;
+                height: 20px;
+            }
+        }
+    }
+}

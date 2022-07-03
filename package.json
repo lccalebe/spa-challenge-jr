@@ -1,0 +1,26 @@
+{
+  "name": "spa-challenge-jr",
+  "version": "1.0.0",
+  "description": "SPA feito para o challange frontend jr da VNDA",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lccalebe/spa-challenge-jr.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lccalebe/spa-challenge-jr/issues"
+  },
+  "homepage": "https://github.com/lccalebe/spa-challenge-jr#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-sass": "^5.1.0",
+    "node-sass": "^7.0.1",
+    "sass": "^1.53.0"
+  }
+}
