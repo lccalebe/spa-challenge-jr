@@ -227,16 +227,15 @@ footer .footerMenus {
     width: 25%;
     height: 150px;
     display: flex;
-    flex-direction: column; }
+    flex-direction: column;
+    align-items: center; }
     footer .footerMenus .menu3 .title {
       font-size: 24px;
       color: #204022;
-      margin-bottom: 25px;
-      text-align: center; }
+      margin-bottom: 25px; }
     footer .footerMenus .menu3 .iconsContainer {
       display: flex;
-      flex-direction: column;
-      margin-left: 45%; }
+      flex-direction: column; }
       footer .footerMenus .menu3 .iconsContainer a {
         font-size: 20px;
         text-decoration: none;
@@ -320,4 +319,44 @@ footer .footerLastText {
     .produtoESwiper .produtoSwiper {
       position: static;
       width: 80%;
-      margin: 20px auto; } }
+      margin: 20px auto; }
+  .instaSection .card1 {
+    display: none; }
+  .instaSection .card3 {
+    display: none; }
+  footer .footerMenus {
+    display: block;
+    padding: 0%; }
+    footer .footerMenus .menu1 {
+      height: fit-content;
+      width: 100%;
+      align-items: center; }
+      footer .footerMenus .menu1 .title {
+        font-size: 36px; }
+      footer .footerMenus .menu1 .ancoras {
+        font-size: 22px; }
+    footer .footerMenus .menu2 {
+      height: fit-content;
+      width: 100%;
+      background-color: #204022;
+      color: #aef78e;
+      padding-bottom: 20px; }
+      footer .footerMenus .menu2 .title {
+        font-size: 32px;
+        color: #aef78e; }
+      footer .footerMenus .menu2 .inputContato {
+        background-color: #204022; }
+      footer .footerMenus .menu2 .inputEmail {
+        font-size: 22px;
+        width: 70%; }
+      footer .footerMenus .menu2 .btnEnviar {
+        border: solid 1px #aef78e;
+        padding: 5px; }
+      footer .footerMenus .menu2 hr {
+        border-color: #aef78e; }
+    footer .footerMenus .menu3 {
+      height: fit-content;
+      width: 100%; }
+  footer .footerLastText {
+    color: #aef78e;
+    background-color: #204022; } }

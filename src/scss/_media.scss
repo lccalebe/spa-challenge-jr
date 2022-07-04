@@ -110,5 +110,77 @@
 
         }
     }
+
+    .instaSection {
+        .card1 {
+            display: none;
+        }
+        .card3 {
+            display: none;
+        }
+    }
+
+    footer {
+        .footerMenus {
+            display: block;
+            padding: 0%;
+
+            .menu1 {
+                height: fit-content;
+                width: 100%;
+                align-items: center;
+                .title {
+                    font-size: 36px;
+                }
+
+                .ancoras {
+                    font-size: 22px;
+                }
+                
+            }
+
+            .menu2 {
+                height: fit-content;
+                width: 100%;
+                background-color: #204022;
+                color: #aef78e;
+                padding-bottom: 20px;
+
+                .title {
+                    font-size: 32px;                  
+                    color: #aef78e;
+                }
+
+                .inputContato {
+                    background-color: #204022;
+                }
+
+                .inputEmail {
+                    font-size: 22px;
+                    width: 70%;
+                }
+
+                .btnEnviar {
+                    border: solid 1px #aef78e;
+                    padding: 5px;
+                }
+
+                hr {
+                    border-color: #aef78e;
+                }
+
+            }
+
+            .menu3 {
+                height: fit-content;
+                width: 100%;
+            }
+        }
+
+        .footerLastText {
+            color: #aef78e;
+            background-color: #204022;
+        }
+    }
 }
 
