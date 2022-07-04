@@ -9,6 +9,8 @@ gulp.task('default', watch);
 
 gulp.task('sass', compilaSass);
 
+gulp.task('sassMin', compilaSassMin);
+
 function compilaSass() {
     return gulp
         .src("./src/scss/**/*.scss")
@@ -18,4 +20,11 @@ function compilaSass() {
 
 function watch() {
     gulp.watch("./src/scss/**/*.scss", compilaSass);
+};
+
+function compilaSassMin() {
+    return gulp
+        .src("./src/scss/**/*.scss")
+        .pipe(sass({outputStyle: 'compressed'}).on("error", sass.logError))
+        .pipe(gulp.dest("./dist/css"));
 };
