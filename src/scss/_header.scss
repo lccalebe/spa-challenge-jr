@@ -19,16 +19,24 @@ header {
             height: 100%;
         }
 
-        nav {
-            display: grid;
-            grid-gap: 16px;
-            grid-template-columns: repeat(4, auto);
+        .logoHeader {
+            flex-grow: 1;
+        }
 
+        button {
+            display: none;
+        }
+
+        .menu {
+            flex-grow: 2;
+            display: flex;
+            justify-content: space-around;
             a {
                 color: inherit;
                 font-size: 20px;
                 text-decoration: none;
-            }
+                margin: 5px;
+            }            
 
             .icons {
                 width: 20px;
