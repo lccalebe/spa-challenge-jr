@@ -12,6 +12,7 @@ Projeto desenvolvido para demostrar habilidade de frontend para o processo selet
 <img align="center" alt="sass" height="10%" width="10%" style="margin-right:10px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg">
 <img align="center" alt="gulp" height="10%" width="10%" style="margin-right:10px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/gulp/gulp-plain.svg">
 <img align="center" alt="javaScript" height="10%" width="10%" style="margin-right:10px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg">
-<img align="center" alt="git" height="10%" width="10%" style="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-plain-wordmark.svg"/>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" />
+
 
 </div>
