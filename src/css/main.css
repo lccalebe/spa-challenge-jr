@@ -191,18 +191,18 @@ body {
   justify-content: center; }
   .adContainer .ad {
     background-color: #20402288;
-    width: 820px;
-    height: 750px;
+    width: 75%;
+    height: 90%;
     display: flex;
     align-items: center;
     justify-content: center; }
     .adContainer .ad img {
-      width: 500px;
-      height: 500px; }
+      width: 52.5%;
+      height: 63%; }
     .adContainer .ad .btnFechar {
       position: absolute;
-      top: 15%;
-      right: 15%;
+      top: 13%;
+      right: 18%;
       background-color: transparent;
       border: none;
       font-size: 40px;
