@@ -37,6 +37,24 @@
 
     }
 
+    .adContainer {
+        .ad {
+            width: 85%;
+            height: 70%;
+
+            img {
+                width: 70%;
+                height: 65%;
+            }
+
+            .btnFechar {
+                top: 18%;
+                text-decoration: underline;
+
+            }
+        }
+    }
+
     .roundedMenu {
         flex-wrap: wrap;
         height: fit-content;

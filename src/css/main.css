@@ -181,6 +181,38 @@ body {
       .instaSection .card3 .mainContainer .theCard:hover {
         transform: rotateY(180deg); }
 
+.adContainer {
+  position: fixed;
+  z-index: +2;
+  width: 100%;
+  height: 100%;
+  display: none;
+  align-items: center;
+  justify-content: center; }
+  .adContainer .ad {
+    background-color: #20402288;
+    width: 820px;
+    height: 750px;
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+    .adContainer .ad img {
+      width: 500px;
+      height: 500px; }
+    .adContainer .ad .btnFechar {
+      position: absolute;
+      top: 15%;
+      right: 15%;
+      background-color: transparent;
+      border: none;
+      font-size: 40px;
+      font-weight: bold;
+      color: rgba(0, 0, 0, 0.87);
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      cursor: pointer; }
+    .adContainer .ad .btnFechar:hover {
+      text-decoration: underline; }
+
 header {
   top: 0;
   left: 0;
@@ -376,6 +408,15 @@ footer .footerLastText {
       align-items: center; }
       header .headerContainer .menu .menuIcons {
         margin-top: 15px; }
+  .adContainer .ad {
+    width: 85%;
+    height: 70%; }
+    .adContainer .ad img {
+      width: 70%;
+      height: 65%; }
+    .adContainer .ad .btnFechar {
+      top: 18%;
+      text-decoration: underline; }
   .roundedMenu {
     flex-wrap: wrap;
     height: fit-content;
